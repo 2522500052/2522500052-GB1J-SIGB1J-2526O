@@ -127,7 +127,12 @@
             transform: translateY(-1px);
         }
 
-      
+      footer {
+        background: #222;
+        color: #aaa;
+        text-align: center;
+        padding: 10px;
+      }
 
         @media (max-width: 600px) {
 
