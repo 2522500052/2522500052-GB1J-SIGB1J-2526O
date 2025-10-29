@@ -1,5 +1,5 @@
    * {
-    box-sizing: bordr-box;
+    box-sizing: border-box;
    }
 
    body {
@@ -7,7 +7,7 @@
     font-family: Arial, sans-serif;
     background: #f5f5f5;
     color: #333;
-    line-height: 1,5;
+    line-height: 1.5;
    }
 
    header {
@@ -15,6 +15,7 @@
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: relative;
    }
 
    header ul {
@@ -38,7 +39,7 @@
             padding: 20px;
             max-width: 700px;
             margin: 20px auto;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         #about,
         #contact, #home { background: linear-gradient(45deg, #ff9ff3, #feca57, #54a0ff, #5f27cd);
@@ -173,7 +174,7 @@
             flex-direction: column;
             background: #003366;
             width: 100%;
-            padding: 5px 0;
+            padding: 10px 0;
            }
 
            nav.active {
