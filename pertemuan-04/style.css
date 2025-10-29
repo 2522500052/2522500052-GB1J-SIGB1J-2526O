@@ -41,7 +41,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
         }
         #about,
-        #contact { background: linear-gradient(45deg, #ff9ff3, #feca57, #54a0ff, #5f27cd);
+        #contact, #home { background: linear-gradient(45deg, #ff9ff3, #feca57, #54a0ff, #5f27cd);
         background-size: 800% 800%;
     animation: wave 5s ease infinite;}
 
@@ -148,8 +148,8 @@
       }
 
       header li a:active {
-        backgroud-color: #cc04a1;
-        trnasform: translateY(1px);
+        background-color: #cc04a1;
+        transform: translateY(1px);
       }
 
         @media (max-width: 600px) {
