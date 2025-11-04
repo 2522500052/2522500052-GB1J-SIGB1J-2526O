@@ -61,6 +61,7 @@ $SAUDARA="9 BERSAUDARA";
 
         </section>
         <section id="ipk">
+            <?php
             $namamatkul1='Aplikasi Perkantoran';
         $sksmatkul1='3';
         $nilaihadir1='90';
@@ -295,6 +296,13 @@ $SAUDARA="9 BERSAUDARA";
                 $grade5 = "E"; $mutu5 = 0.00; $status5 = "Gagal";
             }
         }
+
+        $bobot1=$mutu1 * $sksmatkul1;
+        $bobot2=$mutu2 * $sksmatkul2;
+        $bobot3=$mutu3 * $sksmatkul3;
+        $bobot4=$mutu4 * $sksmatkul4;
+        $bobot5=$mutu5 * $sksmatkul5;
+        ?>
 
 
 
