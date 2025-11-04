@@ -10,3 +10,4 @@ Hari ini, kamis 30 oktober 2025, saya mempelajari:
 <li>membuat variabel nilai akhir </li>
 <li>perhitungan nilai akhir 1 </li>
 <li>perhitungan nilai akhir 2 </li>
+<li>perhitungan nilai akhir 3 </li>
