@@ -32,18 +32,30 @@ echo "Halo Dunia!";
 ?>
         </section>
         <section id="about">
+<?php 
+$NAMA="NOVIANA SIADARI";
+$NIM="2522500052";
+$TEMPATLAHIR="BANGAI";
+$TANGGALLAHIR="09 AGUSTUS 2006";
+$HOBI="MENYANYI";
+$PASANGAN="JOMBLO ABADI";
+$PEKERJAAN="KARYAWAN LAUNDRY";
+$NAMAAYAH="ANTONIUS SIADARI";
+$NAMAIBU="NETTY SINAGA";
+$SAUDARA="9 BERSAUDARA";
+?>
 
             <h2>Tentang kami</h2>
-            <p> <strong>Nama:</strong>NOVIANA SIADARI &#128526;</p>
-            <p> <strong>Nim:</strong>2522500052</p>
-            <p> <strong>Tempat Lahir:</strong>BANGAI</p>
-            <p> <strong>Tanggal Lahir:</strong>09 AGUSTUS 2006</p>
-            <p> <strong>Hobi:</strong>MENYANYI &#127926;</p>
-            <p> <strong>Pasangan:</strong>JOMBLO ABADI &hearts;</p>
-            <p> <strong>Pekerjaan:</strong>KARYAWAN LAUNDRY</p>
-            <p> <strong>Nama Ayah:</strong>ANTONIUS SIADRI</p>
-            <p> <strong>Nama Ibu:</strong>NETTY SINAGA</p>
-            <p> <strong>saudara:</strong>9 BERSAUDARA</p>
+            <p> <strong>Nama:</strong><?php echo $NAMA; ?> &#128526;</p>
+            <p> <strong>Nim:</strong><?php echo $NIM; ?></p>
+            <p> <strong>Tempat Lahir:</strong><?php echo $TEMPATLAHIR; ?></p>
+            <p> <strong>Tanggal Lahir:</strong><?php echo $TANGGALLAHIR; ?></p>
+            <p> <strong>Hobi:</strong><?php echo $HOBI; ?> &#127926;</p>
+            <p> <strong>Pasangan:</strong><?php echo $PASANGAN; ?> &hearts;</p>
+            <p> <strong>Pekerjaan:</strong><?php echo $PEKERJAAN; ?></p>
+            <p> <strong>Nama Ayah:</strong><?php echo $NAMAAYAH; ?></p>
+            <p> <strong>Nama Ibu:</strong><?php echo $NAMAIBU; ?></p>
+            <p> <strong>saudara:</strong><?php echo $SAUDARA; ?></p>
             
 
         </section>
