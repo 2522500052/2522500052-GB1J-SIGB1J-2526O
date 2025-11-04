@@ -15,3 +15,4 @@ Hari ini, kamis 30 oktober 2025, saya mempelajari:
 <li>perhitungan nilai akhir 5 </li>
 <li>membuat variabel bobot </li>
 <li>membuat perhitungan total bobot sks ipk</li>
+<li>grouping section ipk dengan about dan data mata kuliah 1</li>

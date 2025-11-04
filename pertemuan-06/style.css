@@ -35,7 +35,7 @@
    }
 
    #about,
-        #contact, #home {
+        #contact, #home ,#ipk{
           
             border-radius: 10px;
             padding: 20px;
@@ -44,7 +44,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         #about,
-        #contact, #home { background: linear-gradient(45deg, #ff9ff3, #feca57, #54a0ff, #5f27cd);
+        #contact, #home, #ipk { background: linear-gradient(45deg, #ff9ff3, #feca57, #54a0ff, #5f27cd);
         background-size: 800% 800%;
     animation: wave 5s ease infinite;}
 
@@ -55,7 +55,7 @@
     }
 
         #about h2,
-        #contact h2, #home h2 {
+        #contact h2, #home h2, #ipk h2 {
             color: #003366;
             border-bottom: 2px solid #003366;
             padding-bottom: 6px;
