@@ -9,3 +9,4 @@ Hari ini, kamis 30 oktober 2025, saya mempelajari:
 <li>membuat variabel section nilai ipk </li>
 <li>membuat variabel nilai akhir </li>
 <li>perhitungan nilai akhir 1 </li>
+<li>perhitungan nilai akhir 2 </li>
