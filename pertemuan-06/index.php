@@ -19,6 +19,7 @@
                 <li><a href="#home">Beranda</a></li>
                 <li><a href="#about">Tentang</a></li>
                 <li><a href="#contact">Kontak</a></li>
+                <li><a href="#ipk">nilai</a></li>
             </ul>
         </nav>
     </header>
@@ -57,6 +58,39 @@ $SAUDARA="9 BERSAUDARA";
             <p> <strong>Nama Ibu:</strong><?php echo $NAMAIBU; ?></p>
             <p> <strong>saudara:</strong><?php echo $SAUDARA; ?></p>
             
+
+        </section>
+        <section id="ipk">
+            $namamatkul1='Aplikasi Perkantoran';
+        $sksmatkul1='3';
+        $nilaihadir1='90';
+        $nilaitugas1='60';
+        $nilaiuts1='80';
+        $nilaiuas1='70';
+            $namamatkul2='Logika Informatika';
+        $sksmatkul2='3';
+        $nilaihadir2='70';
+        $nilaitugas2='50';
+        $nilaiuts2='60';
+        $nilaiuas2='80';
+            $namamatkul3='Pengantar Basis Data';
+        $sksmatkul3='3';
+        $nilaihadir3='80';
+        $nilaitugas3='70';
+        $nilaiuts3='70';
+        $nilaiuas3='90';
+            $namamatkul4='Pengantar Teknologi';
+        $sksmatkul4='3';
+        $nilaihadir4='90';
+        $nilaitugas4='90';
+        $nilaiuts4='90';
+        $nilaiuas4='90';
+         $namamatkul5='Pemrograman Web Dasar';
+        $sksmatkul5='3';
+        $nilaihadir5='80';
+        $nilaitugas5='80';
+        $nilaiuts5='80';
+        $nilaiuas5='80';
 
         </section>
         <section id="contact">
