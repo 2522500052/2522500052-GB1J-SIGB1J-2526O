@@ -18,3 +18,4 @@ Hari ini, kamis 30 oktober 2025, saya mempelajari:
 <li>grouping section ipk dengan about dan data mata kuliah 1</li>
 <li>membuat data mata kuliah 2</li>
 <li>membuat data mata kuliah 3</li>
+<li>membuat data mata kuliah 4</li>
