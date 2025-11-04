@@ -19,3 +19,4 @@ Hari ini, kamis 30 oktober 2025, saya mempelajari:
 <li>membuat data mata kuliah 2</li>
 <li>membuat data mata kuliah 3</li>
 <li>membuat data mata kuliah 4</li>
+<li>membuat data mata kuliah 5</li>
