@@ -3,7 +3,7 @@ NIM:2522500052<br>
 Nma :Noviana siadari<br>
 
 Hari ini, kamis 30 oktober 2025, saya mempelajari:
-<ol>
+<ol>  
 <li>skrip php hello word </li>
 <li>membuat variabel section id about </li>
 <li>membuat variabel section nilai ipk </li>
@@ -20,3 +20,5 @@ Hari ini, kamis 30 oktober 2025, saya mempelajari:
 <li>membuat data mata kuliah 3</li>
 <li>membuat data mata kuliah 4</li>
 <li>membuat data mata kuliah 5</li>
+<li>styling tipis2</li>
+</ol>
