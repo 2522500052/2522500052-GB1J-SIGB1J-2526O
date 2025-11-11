@@ -61,7 +61,7 @@ $SAUDARA="9 BERSAUDARA";
 
         </section>
         <section id="ipk">
-            <?php
+            <?php 
             $namamatkul1='Aplikasi Perkantoran';
         $sksmatkul1='3';
         $nilaihadir1='90';
@@ -397,7 +397,7 @@ $SAUDARA="9 BERSAUDARA";
 
 
 
-
+        
 
         </section>
         <section id="contact">
