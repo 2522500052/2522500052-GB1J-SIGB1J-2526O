@@ -5,4 +5,5 @@ Nma :Noviana siadari<br>
 hari ini kamis 06,november kami belajar 
 <ol>
     <li>download + extract bahan latihan pertemuan-07</li>
+    <li>method dan action index.php</li>
 </ol>
