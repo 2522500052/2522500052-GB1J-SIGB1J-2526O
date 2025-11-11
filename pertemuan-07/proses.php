@@ -1,3 +1,2 @@
 <?php 
-    echo   
-?>
+    echo "halo aku noviana siadari" ?>

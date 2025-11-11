@@ -7,4 +7,5 @@ hari ini kamis 06,november kami belajar
     <li>download + extract bahan latihan pertemuan-07</li>
     <li>method dan action index.php</li>
     <li>mengubah e.target dari reset ke submit</li>
+    <li>menambah variabel di proses.php</li>
 </ol>
