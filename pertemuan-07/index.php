@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+$akunnama = $_POST["txtNama"];
+$akuemail = $_post["txtEmail"];
+$akupesan = $_POST["txtPesan"];
+
+$_SESSION["txtNama"] = $akunama;
+$_SESSION["txtEmail"] = $akuemail;
+$_SESSION["txtPesan"] = $akupesan;
+
+header("location: index.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
