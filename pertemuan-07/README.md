@@ -11,6 +11,7 @@ hari ini kamis 06,november kami belajar
     <li>menambah variabel session di index.php</li>
     <li>memperbaiki variabel session di index.php</li>
     <li>memperbaiki variabel di proses.php</li>
-    <li>hasil form index.pxp</li>
+    <li>membuat form index.php</li>
+    <li>membuat file penghancur.php do pertemuan-07</li>
     
 </ol>
