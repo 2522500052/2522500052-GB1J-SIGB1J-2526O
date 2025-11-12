@@ -1,11 +1,9 @@
-<?php 
-session_strart();
+<?php session_strart();
 
 $akunama = $_SESSION["txtNma"];
 $akuemail = $_SESSION["txtEmail"];
 $akupesan = $_SESSION["txtPesan"];
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -91,6 +89,12 @@ $akupesan = $_SESSION["txtPesan"];
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+
+      <h2>siapa kamu?, Yang manghubungi kami</h2>
+      <p><strong>Nama :</strong><?php echo $akunama; ?> </p>
+      <p><strong>Email :</strong><?php echo $akuemail; ?> </p>
+      <p><strong>Pesan :</strong><?php echo $akupesan; ?> </p>
+
     </section>
   </main>
 
