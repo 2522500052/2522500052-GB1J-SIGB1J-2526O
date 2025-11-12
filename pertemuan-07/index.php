@@ -1,16 +1,16 @@
-<?php
-session_start();
+<?php 
+session_strart();
 
-$akunnama = $_POST["txtNama"];
-$akuemail = $_post["txtEmail"];
+$akunama = $_POST["txtNma"];
+$akuemail = $_POST["txtEmail"];
 $akupesan = $_POST["txtPesan"];
 
 $_SESSION["txtNama"] = $akunama;
 $_SESSION["txtEmail"] = $akuemail;
 $_SESSION["txtPesan"] = $akupesan;
 
-header("location: index.php");
-?>
+header("Location: index.php");
+
 
 <!DOCTYPE html>
 <html lang="en">

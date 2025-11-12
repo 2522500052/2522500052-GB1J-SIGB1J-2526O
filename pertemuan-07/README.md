@@ -9,5 +9,6 @@ hari ini kamis 06,november kami belajar
     <li>mengubah e.target dari reset ke submit</li>
     <li>menambah variabel di proses.php</li>
     <li>menambah variabel session di index.php</li>
+    <li>memperbaiki variabel session di index.php</li>
     
 </ol>
