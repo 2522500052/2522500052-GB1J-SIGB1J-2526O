@@ -14,5 +14,6 @@ hari ini kamis 06,november kami belajar
     <li>membuat form index.php</li>
     <li>membuat file penghancur.php do pertemuan-07</li>
     <li>menambahkan variabel di index.php mencegah agar tidak eror</li>
+    <li>menambah kode php if !empty dan variabel di index.php</li>
     
 </ol>
