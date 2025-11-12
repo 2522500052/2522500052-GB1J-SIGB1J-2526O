@@ -1,15 +1,10 @@
 <?php 
 session_strart();
 
-$akunama = $_POST["txtNma"];
-$akuemail = $_POST["txtEmail"];
-$akupesan = $_POST["txtPesan"];
-
-$_SESSION["txtNama"] = $akunama;
-$_SESSION["txtEmail"] = $akuemail;
-$_SESSION["txtPesan"] = $akupesan;
-
-header("Location: index.php");
+$akunama = $_SESSION["txtNma"];
+$akuemail = $_SESSION["txtEmail"];
+$akupesan = $_SESSION["txtPesan"];
+?>
 
 
 <!DOCTYPE html>
