@@ -13,5 +13,6 @@ hari ini kamis 06,november kami belajar
     <li>memperbaiki variabel di proses.php</li>
     <li>membuat form index.php</li>
     <li>membuat file penghancur.php do pertemuan-07</li>
+    <li>menambahkan variabel di index.php mencegah agar tidak eror</li>
     
 </ol>
