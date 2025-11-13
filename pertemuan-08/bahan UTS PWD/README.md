@@ -9,4 +9,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>mengunduh bahan uts di elearning dan mengextract di repository git hub pertemuan-08</li>
   <li>menambah section id biodata di index.php</li>
   <li>membuat data mahasiswa di index.php</li>
+  <li>styling css biodata</li>
 </ol>
