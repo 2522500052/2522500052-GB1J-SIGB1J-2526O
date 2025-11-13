@@ -6,13 +6,13 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #36e742;
-  color: #d3dfd5;
+  color: #070808;
   line-height: 1.5;
 }
 
 header {
   background: #003366;
-  color: #e9ecea;
+  color: #070707;
   padding: 20px;
   text-align: center;
 }
@@ -38,7 +38,7 @@ header li a:hover {
 }
 
 header li a:focus {
-  outline: 2px solid hsl(114, 33%, 88%);
+  outline: 2px solid hsl(120, 29%, 3%);
   outline-offset: 2px;
   border-radius: 6px;
   background-color: rgba(109, 93, 93, 0.15);
@@ -52,7 +52,7 @@ header li a:active {
 #home:target~header nav a[href="#home"],
 #about:target~header nav a[href="#about"],
 #contact:target~header nav a[href="#contact"] {
-  background: #f0f3f0;
+  background: #0b0b0b;
   color: #003366;
   font-weight: bold;
   border-radius: 6px;
@@ -162,7 +162,7 @@ footer {
   display: none;
   background: none;
   border: none;
-  color: #3c4b52;
+  color: #060707;
   font-size: 28px;
   cursor: pointer;
 }
