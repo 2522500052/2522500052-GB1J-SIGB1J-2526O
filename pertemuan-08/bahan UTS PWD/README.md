@@ -7,4 +7,5 @@ Kelompok: SI-GB1J<br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>mengunduh bahan uts di elearning dan mengextract di repository git hub pertemuan-08</li>
+  <li>menambah section id biodata di index.php</li>
 </ol>
