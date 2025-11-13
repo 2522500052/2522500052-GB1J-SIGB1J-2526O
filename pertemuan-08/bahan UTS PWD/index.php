@@ -53,6 +53,51 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
+    <section id="biodata">
+      <h2>Biodata</h2>
+      <form action="proses.php" method="POST">
+
+        <label for="txtNim"><span>NIM:</span>
+          <input type="NIM" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="Nim">
+        </label>
+
+        <label for="txtNamaLengkap"><span>NAMA:</span>
+          <input type="NamaLengkap" id="txtNamaLengkap" name="txtNamaLengkap" placeholder="Masukkan NamaLengkap" required autocomplete="Nama">
+        </label>
+
+        <label for="txtTempatLahir"><span>Tempat Lahir:</span>
+          <input type="Tempat Lahir" id="txtTempatLahir" name="txtTempatLahir" placeholder="Masukkan Tempat lahir" required autocomplete="Tempat Lahir">
+        </label>
+
+        <label for="txtTanggalLahir"><span>Tanggal Lahir:</span>
+          <input type="Tanggal Lahir" id="txtTanggalLahir" name="txtTanggalLahir" placeholder="Masukkan Tanggal lahir" required autocomplete="Tanggal Lahir">
+        </label>
+
+        <label for="txtHobi"><span>Hobi:</span>
+          <input type="Hobi" id="txtHobi" name="txtHobi" placeholder="Masukkan Hobi" required autocomplete="Hobi">
+        </label>
+
+        <label for="txtPekerjaan"><span>Pekerjaan:</span>
+          <input type="Pekerjaan" id="txtPekerjaan" name="txtPekerjaan" placeholder="Masukkan Pekerjaan" required autocomplete="Pekerjaan">
+        </label>
+
+        <label for="txtNamaOrangTua"><span>Nama Orang Tua:</span>
+          <input type="Nama Orang Tua" id="txtNamaOrangTua" name="txtNamaOrangTua" placeholder="Masukkan Nama Orang Tua" required autocomplete="Nama Orang Tua">
+        </label>
+
+        <label for="txtNamaKakak"><span>Nama Kakak:</span>
+          <input type="Nama Kakak" id="txtNamaKakak" name="txtNamaKakak" placeholder="Masukkan Nama Kakak" required autocomplete="Nama Kakak">
+        </label>
+
+        <label for="txtNamaAdik"><span>Nama Adik:</span>
+          <input type="Nama Adik" id="txtNamaAdik" name="txtNamaAdik" placeholder="Masukkan Nama Adik" required autocomplete="Nama Adik">
+        </label>
+
+        </label>
+
+
+    </section>
+
     <section id="about">
       <?php
       $nim = 2511500010;
