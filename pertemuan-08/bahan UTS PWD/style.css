@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #d60a0a;
+  background: #36e742;
   color: #d3dfd5;
   line-height: 1.5;
 }
@@ -32,7 +32,7 @@ header li a {
 }
 
 header li a:hover {
-  background-color: #85020d;
+  background-color: #4ff457;
   border-radius: 6px;
   transition: background-color 0.3s ease;
 }
@@ -178,7 +178,7 @@ footer {
   nav {
     display: none;
     flex-direction: column;
-    background: #8aca22;
+    background: #d9e82e;
     width: 100%;
     padding: 5px 0;
   }
