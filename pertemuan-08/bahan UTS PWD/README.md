@@ -10,4 +10,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambah section id biodata di index.php</li>
   <li>membuat data mahasiswa di index.php</li>
   <li>styling css biodata</li>
+  <li>memperbaiki index.php karena hasilnya salah diawal</li>
+  <li>memperbaiki styling.css</li>
 </ol>
