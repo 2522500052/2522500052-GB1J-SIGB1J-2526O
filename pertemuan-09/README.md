@@ -14,4 +14,5 @@ KELOMPOK: SI-GB1J <br>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
   <li>mengubah data POST array associative</li>
+  <li>menambah kode di proses.php</li>
 </ol>
