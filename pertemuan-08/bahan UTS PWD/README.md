@@ -12,4 +12,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>styling css biodata</li>
   <li>memperbaiki index.php karena hasilnya salah diawal</li>
   <li>memperbaiki styling.css</li>
+  <li>mengubah warna styling.css</li>
 </ol>
