@@ -28,4 +28,5 @@ KELOMPOK: SI-GB1J <br>
   <li>mengganti kode pada file index.php</li>
   <li>menambah kode require_once pasa file index.php</li>
   <li>perbaikan eror file index.php</li>
+  <li>perbaikan eror pasa file fungsi.php</li>
 </ol>
