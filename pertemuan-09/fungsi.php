@@ -22,7 +22,7 @@ function tampilkanBiodata($conf, $arr)
         $nilai = bersihkan($arr[$k] ?? '');
         $suffix = $v["suffix"];
 
-        $html .= "<p><strong>{$label}</strong> {$nilai}{$suffix}</p>;
+        $html .= "<p><strong>{$label}</strong> {$nilai}{$suffix}</p>";
     }
     return $html;
 }
