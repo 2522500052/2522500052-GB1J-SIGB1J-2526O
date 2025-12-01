@@ -19,4 +19,5 @@ KELOMPOK: SI-GB1J <br>
   <li>memperbaiki file index.php</li>
   <li>memperbaiki file index.php halaman 114</li>
   <li>perbaikan eror pada baris ke 114 di index.php</li>
+  <li>menambah baris kode baru didalam section id about di index.php</li>
 </ol>
