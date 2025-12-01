@@ -21,4 +21,5 @@ KELOMPOK: SI-GB1J <br>
   <li>perbaikan eror pada baris ke 114 di index.php</li>
   <li>menambah baris kode baru didalam section id about di index.php</li>
   <li>perbaikan eror pada baris ke 129 di index.php</li>
+  <li>menghapus baris 130-140 karena sudah diakomodir menggunakan perulangan foreach</li>
 </ol>
