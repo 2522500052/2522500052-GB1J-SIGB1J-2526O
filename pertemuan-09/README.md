@@ -16,4 +16,5 @@ KELOMPOK: SI-GB1J <br>
   <li>mengubah data POST array associative</li>
   <li>menambah kode di proses.php</li>
   <li>menambah kode baru pada file index.php</li>
+  <li>memperbaiki file index.php</li>
 </ol>
