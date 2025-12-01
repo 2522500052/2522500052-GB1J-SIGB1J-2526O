@@ -26,4 +26,5 @@ KELOMPOK: SI-GB1J <br>
   <li>menambah kode baru pada file fungsi.php</li>
   <li>menambah kode untuk merender output biodata pada file fungsi.php</li>
   <li>mengganti kode pada file index.php</li>
+  <li>menambah kode require_once pasa file index.php</li>
 </ol>
