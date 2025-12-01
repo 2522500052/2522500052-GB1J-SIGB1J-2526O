@@ -24,4 +24,5 @@ KELOMPOK: SI-GB1J <br>
   <li>menghapus baris 130-140 karena sudah diakomodir menggunakan perulangan foreach</li>
   <li>menambah file baru pada pertemuan-09 fungsi.php dan memasukkan kode baru pada file fungsi.php</li>
   <li>menambah kode baru pada file fungsi.php</li>
+  <li>menambah kode untuk merender output biodata pada file fungsi.php</li>
 </ol>
