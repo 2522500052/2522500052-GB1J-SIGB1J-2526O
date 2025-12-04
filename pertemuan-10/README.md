@@ -4,4 +4,5 @@ NIM  : 2522500052 <br>
 KEL  : SI-GB1J <br>
 <ol>
 <li>dowload file zip pertemuan 10 dan mengextract</li>
+<li>memasukkan kode pada file koneksi.php</li>
 
