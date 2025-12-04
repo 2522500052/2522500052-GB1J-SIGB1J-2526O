@@ -30,5 +30,6 @@ KELOMPOK: SI-GB1J <br>
   <li>perbaikan eror file index.php</li>
   <li>perbaikan eror pasa file fungsi.php</li>
   <li>perbaikan eror pada file index.php baris 128</li>
-  <li>menambahkan kode baru di proses.php </li>
+  <li>menambahkan kode baru di proses.php</li>
+  <li>perbaikan file proses.php</li>
 </ol>
