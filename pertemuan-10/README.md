@@ -1,1 +1,7 @@
 # pertemuan-10
+NAMA : NOVIANA SIADARI <br>
+NIM  : 2522500052 <br>
+KEL  : SI-GB1J <br>
+<ol>
+<li>dowload file zip pertemuan 10 dan mengextract</li>
+
