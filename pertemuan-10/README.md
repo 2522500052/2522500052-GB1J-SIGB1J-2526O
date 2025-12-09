@@ -9,3 +9,5 @@ KEL  : SI-GB1J <br>
 <li>mengetik query membuat tabel tbl_tamu</li>
 <li>membuat file read.php dan memasukkan kode</li>
 <li>perbaikan eror pada file read.php</li>
+<li>duplikat file read.php dan membuat kode baru di file read_inc.php</li>
+
