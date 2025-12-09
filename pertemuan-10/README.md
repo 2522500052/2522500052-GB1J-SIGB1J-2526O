@@ -10,4 +10,6 @@ KEL  : SI-GB1J <br>
 <li>membuat file read.php dan memasukkan kode</li>
 <li>perbaikan eror pada file read.php</li>
 <li>duplikat file read.php dan membuat kode baru di file read_inc.php</li>
+<li>menambahkan kode baru pada file index.php</li>
+
 
