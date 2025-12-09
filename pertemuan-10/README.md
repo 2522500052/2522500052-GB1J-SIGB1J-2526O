@@ -6,4 +6,5 @@ KEL  : SI-GB1J <br>
 <li>dowload file zip pertemuan 10 dan mengextract</li>
 <li>memasukkan kode pada file koneksi.php</li>
 <li>mengcreate database</li>
+<li>mengetik query membuat tabel tbl_tamu</li>
 
