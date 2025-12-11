@@ -1,5 +1,10 @@
 <?php
 session_start();
+require_once 'fungsi.php';
+require_once 'koneksi.php'; 
+unset($_SESSION['flash_error']);
+unset($_SESSION['flash_sukses']);
+
 
 if ($_SERVER['REQUEST_METHOD'] !=='POST') {
   $_SESSION['flash_error'] = 'Akses tidak valid.';
@@ -39,7 +44,7 @@ if (!empty($errors)) {
   redirect_ke('index.php#contact');
 }
 
-$sql = "INSERT INTO tbl_tamu (cnama, cemail, cpesan) VALUES (?, ?, ?,)";
+$sql = "INSERT INTO tbl_tamu (cnama, cemail, cpesan) VALUES (?, ?, ?)";
 $stmt = mysqli_prepare($conn, $sql);
 
 if (!$stmt) {
@@ -47,7 +52,7 @@ if (!$stmt) {
   redirect_ke('index.php#contact');
 }
 
-mysqli_stmt_bind_param($stmt, "sss", $nama, $email, $pesan):
+ mysqli_stmt_bind_param($stmt, "sss", $nama, $email, $pesan);
 
 if (mysqli_stmt_execute($stmt)) {
   unset($_SESSION['old']);

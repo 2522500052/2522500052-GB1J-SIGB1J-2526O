@@ -8,6 +8,7 @@ KEL  : SI-GB1J <br>
 <li>menambahkan kode di file index.php untuk menampilkan flash message</li>
 <li>menampilkam nilai dari form lama untuk antisipasi jika error</li>
 <li>insert tbl tamu dengan prepared stetment mysqli</li>
+<li>memperbaiki eror</li>
 
 </ol >
 
