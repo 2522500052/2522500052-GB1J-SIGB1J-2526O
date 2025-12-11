@@ -4,6 +4,7 @@ NIM  : 2522500052 <br>
 KEL  : SI-GB1J <br>
 <ol>
 <li>update file fungsi.php untuk helper redirect sederhana</li>
+<li>menambah penangkap sflash message dari SESSION</li>
 
 </ol >
 
