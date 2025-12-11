@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+if ($_SERVER['REQUEST_METHOD'])
+
 $arrContact = [
   "nama" => $_POST["txtNama"] ?? "",
   "email" => $_POST["txtEmail"] ?? "",
