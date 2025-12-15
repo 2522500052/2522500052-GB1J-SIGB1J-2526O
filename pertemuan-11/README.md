@@ -9,6 +9,6 @@ KEL  : SI-GB1J <br>
 <li>menampilkam nilai dari form lama untuk antisipasi jika error</li>
 <li>insert tbl tamu dengan prepared stetment mysqli</li>
 <li>memperbaiki eror</li>
-
+<li>menambahkan kode baru di read.php</li>
 </ol >
 
