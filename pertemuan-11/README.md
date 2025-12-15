@@ -14,5 +14,6 @@ KEL  : SI-GB1J <br>
 <li>menambahkan kode baru untuk captcha di proses.php</li>
 <li>menambahkan kode baru pada index.php</li>
 <li>mencari kesalahan</li>
+<li>menambah local host baru</li>
 </ol >
 
