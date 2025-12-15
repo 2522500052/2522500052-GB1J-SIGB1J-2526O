@@ -1,63 +1,48 @@
 <?php
 session_start();
-require_once 'fungsi.php';
-require_once 'koneksi.php'; 
-unset($_SESSION['flash_error']);
-unset($_SESSION['flash_sukses']);
+require_once "koneksi.php";
+require_once "fungsi.php";
 
-
-if ($_SERVER['REQUEST_METHOD'] !=='POST') {
-  $_SESSION['flash_error'] = 'Akses tidak valid.';
+if ($_SERVER["REQUEST_METHOD"] !== "POST") {
+  $_SESSION["error"] = "Akses tidak valid!";
   redirect_ke('index.php#contact');
+  exit;
 }
 
 $nama  = bersihkan($_POST['txtNama'] ?? '');
 $email = bersihkan($_POST['txtEmail'] ?? '');
 $pesan = bersihkan($_POST['txtPesan'] ?? '');
-
-#Validasi sederhana
-$errors = []; #ini array untuk menampung semua error yang ada 
-
 $captcha = bersihkan($_POST['captcha'] ?? '');
+$eror = [];
 
-if ($captcha === '') {
-  $errors[] = 'Captcha wajib diisi.';
-} elseif (strlen($captcha !=5) < 3) {
-$eror[] = "Jawaban captcha salah!";
+if ($captcha === "") {
+  $eror[] = 'Captcha wajib diisi!';
+} elseif ($captcha != 5) {
+  $eror[] = "Jawaban captcha salah!";
 }
 
-
-if ($nama === '') {
-  $errors[] = 'Nama wajib diisi.';
+if ($nama === "") {
+  $eror[] = 'Nama wajib diisi!';
 } elseif (strlen($nama) < 3) {
-$eror[] = "Nama wajib 3 karakter!";
+  $eror[] = "Nama minimal 3 karakter!";
 }
 
-if ($email === '') {
-  $errors[] = 'Email wajib diisi.';
+if ($email === "") {
+  $eror[] = 'Email wajib diisi!';
 } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-  $errors[] = 'Format e-mail tidak valid.';
+  $eror[] = 'Format email tidak valid!';
 }
-
-if ($pesan === '') {
-  $errors[] = 'Pesan wajib diisi.';
+if ($pesan === "") {
+  $eror[] = 'Pesan wajib diisi!';
 } elseif (strlen($pesan) < 10) {
   $eror[] = "Pesan minimal 10 karakter!";
 }
 
-
-
-
-if (!empty($errors)) {
-  $_SESSION['old'] = [
-    'nama'  => $nama,
-    'email' => $email,
-    'pesan' => $pesan,
-  ];
-
-  $_SESSION['flash_error'] = implode('<br>', $errors);
+if (!empty($eror)) {
+  $_SESSION["flash_error"] = implode('<br>', $eror);
   redirect_ke('index.php#contact');
 }
+
 
 $sql = "INSERT INTO tbl_tamu (cnama, cemail, cpesan) VALUES (?, ?, ?)";
 $stmt = mysqli_prepare($conn, $sql);
@@ -67,30 +52,23 @@ if (!$stmt) {
   redirect_ke('index.php#contact');
 }
 
- mysqli_stmt_bind_param($stmt, "sss", $nama, $email, $pesan);
+mysqli_stmt_bind_param($stmt, "sss", $nama, $email, $pesan);
 
 if (mysqli_stmt_execute($stmt)) {
-  unset($_SESSION['old']);
-  $_SESSION['flash_sukses'] = 'Terima kasih, data Anda sudah tersimpan.';
-  redirect_ke('index.php#contact');
+  unset($_SESSION["old"]);
+  $_SESSION['flash_sukses'] = 'Terima kasih, data Anda sudah diterima.';
+  redirect_ke("index.php#contact");
 } else {
   $_SESSION['old'] = [
-    'nama'  => $nama,
+    'nama' => $nama,
     'email' => $email,
-    'pesan' => $pesan,
+    'pesan' => $pesan
   ];
-  $_SESSION['flash_error'] = 'Data gagal disimpan. Silahkan coba lagi.';
-  redirect_ke('index.php#contact');
+  $_SESSION['flash_error'] = 'Data gagal disimpan. Silakan coba lagi.';
+  redirect_ke("index.php#contact");
 }
 mysqli_stmt_close($stmt);
  
-$arrContact = [
-  "nama" => $_POST["txtNama"] ?? "",
-  "email" => $_POST["txtEmail"] ?? "",
-  "pesan" => $_POST["txtPesan"] ?? ""
-];
-$_SESSION["contact"] = $arrContact;
-
 $arrBiodata = [
   "nim" => $_POST["txtNim"] ?? "",
   "nama" => $_POST["txtNmLengkap"] ?? "",
