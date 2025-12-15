@@ -20,6 +20,8 @@ $errors = []; #ini array untuk menampung semua error yang ada
 
 if ($nama === '') {
   $errors[] = 'Nama wajib diisi.';
+} elseif (strlen($nama) < 3) {
+$eror[] = "Nama wajib 3 karakter!";
 }
 
 if ($email === '') {
@@ -30,7 +32,11 @@ if ($email === '') {
 
 if ($pesan === '') {
   $errors[] = 'Pesan wajib diisi.';
+} elseif (strlen($pesan) < 10) {
+  $eror[] = "Pesan minimal 10 karakter!";
 }
+
+
 
 
 if (!empty($errors)) {

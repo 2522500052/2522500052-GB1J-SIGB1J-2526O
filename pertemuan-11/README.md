@@ -10,5 +10,6 @@ KEL  : SI-GB1J <br>
 <li>insert tbl tamu dengan prepared stetment mysqli</li>
 <li>memperbaiki eror</li>
 <li>menambahkan kode baru di read.php</li>
+<li>menambahkan kode baru di proses.php</li>
 </ol >
 
