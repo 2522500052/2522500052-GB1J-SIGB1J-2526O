@@ -16,5 +16,6 @@ KEL  : SI-GB1J <br>
 <li>mencari kesalahan</li>
 <li>menambah local host baru</li>
 <li>menambahkan kode baru di read_inc.php</li>
+<li>perbaikan eror</li>
 </ol >
 
