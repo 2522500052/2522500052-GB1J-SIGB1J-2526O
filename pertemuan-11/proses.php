@@ -18,6 +18,15 @@ $pesan = bersihkan($_POST['txtPesan'] ?? '');
 #Validasi sederhana
 $errors = []; #ini array untuk menampung semua error yang ada 
 
+$captcha = bersihkan($_POST['captcha'] ?? '');
+
+if ($captcha === '') {
+  $errors[] = 'Captcha wajib diisi.';
+} elseif (strlen($captcha !=5) < 3) {
+$eror[] = "Jawaban captcha salah!";
+}
+
+
 if ($nama === '') {
   $errors[] = 'Nama wajib diisi.';
 } elseif (strlen($nama) < 3) {

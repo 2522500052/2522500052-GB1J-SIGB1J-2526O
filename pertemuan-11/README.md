@@ -11,5 +11,6 @@ KEL  : SI-GB1J <br>
 <li>memperbaiki eror</li>
 <li>menambahkan kode baru di read.php</li>
 <li>menambahkan kode baru di proses.php</li>
+<li>menambahkan kode baru untuk captcha di proses.php</li>
 </ol >
 
