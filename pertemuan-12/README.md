@@ -6,5 +6,6 @@ KEL  : SI-GB1J <br>
 <li>mengcopy file pertmuan 11 ke pertemuan 12</li>
 <li>menambahkan kode cid di-casting di read.php</li>
 <li>menambahkan kode baru untuk kolom Aksi di read.php</li>
+<li>menambahkan kode untuk menampilkan falsh sukses dan flash error menggunakan session di file read.php</li>
 </ol >
 
