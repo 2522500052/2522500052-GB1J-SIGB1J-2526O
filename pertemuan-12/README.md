@@ -7,5 +7,6 @@ KEL  : SI-GB1J <br>
 <li>menambahkan kode cid di-casting di read.php</li>
 <li>menambahkan kode baru untuk kolom Aksi di read.php</li>
 <li>menambahkan kode untuk menampilkan falsh sukses dan flash error menggunakan session di file read.php</li>
+<li>menambahkan file edit.php di pertemuan-12</li>
 </ol >
 
