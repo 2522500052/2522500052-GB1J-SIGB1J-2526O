@@ -9,5 +9,6 @@ KEL  : SI-GB1J <br>
 <li>menambahkan kode untuk menampilkan falsh sukses dan flash error menggunakan session di file read.php</li>
 <li>menambahkan file edit.php di pertemuan-12</li>
 <li>menambahkan penampil flash sukses maupun flash error di file edit.php</li>
+<li>menambah file baru proses_update.php dipertemuan-12</li>
 </ol >
 
