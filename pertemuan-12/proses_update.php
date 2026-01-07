@@ -1,96 +1,94 @@
 <?php
-  session_start();
-  require __DIR__ . `./koneksi.php`;
-  require_once__DIR__ .
+session_start();
+require __DIR__ . './koneksi.php';
+require_once __DIR__ . './fungsi.php';
 
-  if ($_SERVER[`request_method`] !== `pots`) {
-    $_SESSION[`flash_error`] !==`akses tidak valid.`;
-    redirect_ke(`read.php`);
-  }
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    $_SESSION['flash_error'] = 'akses tidak valid.';
+    redirect_ke('read.php');
+}
 
-  $cid = filter_input(INPUT_post, `cid`, FILTER_VALIDATE_INF, {
-
-  `options` => [`min_range` => 1]
-});
+$cid = filter_input(INPUT_POST, 'cid', FILTER_VALIDATE_INT, [
+    'options' => ['min_range' => 1]
+]);
 
 if (!$cid) {
-    $_SESSION[`flash_error`] = `CID TIDAK VALID.`;
-    redirect_ke(`edit.php?cid=`. (int)$cid)
+    $_SESSION['flash_error'] = 'CID TIDAK VALID.';
+    redirect_ke('edit.php?cid=' . (int)$cid);
 }
 
-$nama = bersikan($_pots[`txtNamaEd`]  ??'';)
-$email = bersikan($_pots[`txtemailEd`]  ??'';)
-$pesan = bersikan($_pots[`txtpesanEd`]  ??'';)
-$captcha = bersikan($_pots[`txtcaptcha`]  ??'';)
+$nama    = bersikan($_POST['txtNamaEd'] ?? '');
+$email   = bersikan($_POST['txtemailEd'] ?? '');
+$pesan   = bersikan($_POST['txtpesanEd'] ?? '');
+$captcha = bersikan($_POST['txtcaptcha'] ?? '');
 
-$errors[];
-if ($nama ==='') {
-    $error[] = `nama wajid diisi.`;
+$errors = [];
+
+if ($nama === '') {
+    $errors[] = 'nama wajib diisi.';
 }
 
-if ($email ==='') {
-    $error[] = `nama wajid diisi.`;
+if ($email === '') {
+    $errors[] = 'email wajib diisi.';
 } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-$errors[] = `format e-mail tidak valid.`;
+    $errors[] = 'format e-mail tidak valid.';
 }
 
-if ($pesan ==='') {
-    $error[] = `pesan wajib diisi.`;
+if ($pesan === '') {
+    $errors[] = 'pesan wajib diisi.';
 }
 
-if ($captcha ==='') {
-    $error[] = `pertanyaan wajib diisi.`;
+if ($captcha === '') {
+    $errors[] = 'pertanyaan wajib diisi.';
 }
 
-if mb_strlen($nama) < 3) {
- $errors[] = `Nama minimal 3 karakter.`; 
+if (mb_strlen($nama) < 3) {
+    $errors[] = 'Nama minimal 3 karakter.';
 }
 
-if mb_strlen($nama) < 10) {
- $errors[] = `pesan minimal 10 karakter.`; 
+if (mb_strlen($pesan) < 10) {
+    $errors[] = 'pesan minimal 10 karakter.';
 }
 
-if ($captcha!=="6") {
-    $erros[] = `jawaban `. $captcha.` captcha salah.`;
+if ($captcha !== '6') {
+    $errors[] = 'jawaban ' . $captcha . ' captcha salah.';
 }
 
-if (empety{$erros}) {
-    $_session[`old`=
-    `nama` => $nama,
-    `emial` => $email,
-    `pesan` => $pesan
-];
+if (!empty($errors)) {
+    $_SESSION['old'] = [
+        'nama'  => $nama,
+        'email' => $email,
+        'pesan' => $pesan
+    ];
 
-$_SESSION[`flash_error`] = implode(`<br>`, $erros);
-redirect_ke(`editphp?cid=`. (int)$cid);
+    $_SESSION['flash_error'] = implode('<br>', $errors);
+    redirect_ke('edit.php?cid=' . (int)$cid);
 }
-  
+
 $stmt = mysqli_prepare($conn, "UPDATE tbl_tamu
                                SET cnama = ?, cemail = ?, cpesan = ?
                                WHERE cid = ?");
 if (!$stmt) {
-    $_SESSION[`flash_error`] = `Terjadi kesalahan sistem (prepare gagal).`;
-    redirect_ke(`edit.php?cid=`. (int)$cid);
+    $_SESSION['flash_error'] = 'Terjadi kesalahan sistem (prepare gagal).';
+    redirect_ke('edit.php?cid=' . (int)$cid);
 }
 
 mysqli_stmt_bind_param($stmt, "sssi", $nama, $email, $pesan, $cid);
 
 if (mysqli_stmt_execute($stmt)) {
-    unset($_SESSION[`old`]);
+    unset($_SESSION['old']);
 
-
-$_SESSION[`flash_sukses`] = `Terima kasih, data Anda sudah diperbaharui.`;
-redirect_ke(`read.php`);
-}else {
-    $_SESSION[`old`] = [
-        `nama`  => $nama,
-        `email` => $email,
-        `pesan` => $pesan,
+    $_SESSION['flash_sukses'] = 'Terima kasih, data Anda sudah diperbaharui.';
+    redirect_ke('read.php');
+} else {
+    $_SESSION['old'] = [
+        'nama'  => $nama,
+        'email' => $email,
+        'pesan' => $pesan
     ];
-    $_SESSION[`flash_error`] = `Data gagal diperbaharui.silahkan coba lagi.`;
-    redirect_ke('edit,php?cid='. (int)$cid);
+    $_SESSION['flash_error'] = 'Data gagal diperbaharui. silahkan coba lagi.';
+    redirect_ke('edit.php?cid=' . (int)$cid);
 }
 
 mysqli_stmt_close($stmt);
-
-redirect_ke('edit.php?cid='. (int)$cid);
+redirect_ke('edit.php?cid=' . (int)$cid);

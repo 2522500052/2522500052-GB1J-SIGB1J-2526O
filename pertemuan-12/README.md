@@ -11,5 +11,6 @@ KEL  : SI-GB1J <br>
 <li>menambahkan penampil flash sukses maupun flash error di file edit.php</li>
 <li>menambah file baru proses_update.php dipertemuan-12</li>
 <li>menambahkan kode baru pada proses_update.php untuk menyimpan perubahan</li>
+<li>perbaikan error</li>
 </ol >
 
