@@ -8,4 +8,5 @@ Noviana Siadari <br>
 <li>ambil file update ke proses delete</li>
 <li>menyesuaikan kode proses delete.php</li>
 <li>menambahkan parameter cid</li>
+<li>memperbaiki</li>
 </ol>
