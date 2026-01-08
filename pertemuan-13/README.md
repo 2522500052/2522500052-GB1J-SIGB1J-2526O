@@ -5,4 +5,5 @@ Noviana Siadari <br>
 <li>ambil data dari materi</li>
 <li>link proses delete dan tombol aksi delete</li>
 <li>file proses delete</li>
+<li>ambil file update ke proses delete</li>
 </ol>
