@@ -4,4 +4,5 @@ Noviana Siadari <br>
 <ol>
 <li>ambil data dari materi</li>
 <li>link proses delete dan tombol aksi delete</li>
+<li>file proses delete</li>
 </ol>
