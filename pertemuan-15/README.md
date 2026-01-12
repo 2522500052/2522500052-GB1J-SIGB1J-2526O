@@ -7,5 +7,6 @@ Noviana Siadari <br>
 <li>membuat file read_biodata.php</li>
 <li>mengcopy file read.php ke file read_biodat.php</li>
 <li>membuat file proses_biodata.php</li>
-<Li>mengcopy file proses.php ke proses_biodata.php</li>
+<li>mengcopy file proses.php ke proses_biodata.php</li>
+<li>membuat file edit_biodata.php</li>
 </ol>
