@@ -53,7 +53,7 @@
       <td><?= $i++ ?></td>
       <td>
         <a href="edit_biodata.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-        <a href="proses_delete_biodata.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+        <a href="proses_delete_biodata.php?cid=<?= (int)$row['cid']; ?>">Hapus</a>
       </td>
       <td><?= $row['cid']; ?></td>
       <td><?= htmlspecialchars($row['cnim']); ?></td>
