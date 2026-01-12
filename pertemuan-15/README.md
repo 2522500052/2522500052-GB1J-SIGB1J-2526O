@@ -10,4 +10,5 @@ Noviana Siadari <br>
 <li>mengcopy file proses.php ke proses_biodata.php</li>
 <li>membuat file edit_biodata.php</li>
 <li>mengcopy file edit.php ke file edit_biodata.php</li>
+<li>membuat file proses_update_biodata.php</li>
 </ol>
