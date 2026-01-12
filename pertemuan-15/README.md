@@ -19,4 +19,5 @@ Noviana Siadari <br>
 <li>mengubah kode read_biodata.php</li>
 <li>mengubah kode read_inc_biodata.php</li>
 <li>mengubah kode proses_biodata.php</li>
+<li>mengubah kode index.php</li>
 </ol>
