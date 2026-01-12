@@ -6,4 +6,5 @@ Noviana Siadari <br>
 <li>membuat tabel biodata mahasiswa</li>
 <li>membuat file read_biodata.php</li>
 <li>mengcopy file read.php ke file read_biodat.php</li>
+<li>membuat file proses_biodata.php</li>
 </ol>
