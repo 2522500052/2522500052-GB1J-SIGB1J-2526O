@@ -18,4 +18,5 @@ Noviana Siadari <br>
 <li>mengcopy file read_inc.php ke file baru read_inc_biodata.php</li>
 <li>mengubah kode read_biodata.php</li>
 <li>mengubah kode read_inc_biodata.php</li>
+<li>mengubah kode proses_biodata.php</li>
 </ol>
