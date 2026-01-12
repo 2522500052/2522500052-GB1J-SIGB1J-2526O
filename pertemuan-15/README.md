@@ -14,4 +14,5 @@ Noviana Siadari <br>
 <li>mengcopy file proses_update.php ke proses_update_biodata.php</li>
 <li>membuat file proses_delate_biodata.php</li> 
 <li>mengcopy file proses_delate.php ke file proses_delate_biodata.php</li>  
+<li>membuat file baru read_inc_biodata.php</li>
 </ol>
