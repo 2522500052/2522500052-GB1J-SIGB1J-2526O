@@ -148,9 +148,9 @@
 
           <label for="txtHobi"><span>Hobi:</span>
             <input type="text" id="txtHobi" name="txtHobi" 
-              placeholder="Masukkan hobi anda" required autocomplete="hobi"
+              placeholder="Masukkan hobi anda ya" required autocomplete="hobi"
               value="<?= !empty($hobi) ? $hobi : '' ?>">
-          </label>
+        </label>
 
           <label for="txtKerja"><span>Pekerjaan:</span>
             <input type="text" id="txtKerja" name="txtKerja" 
