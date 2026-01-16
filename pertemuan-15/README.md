@@ -23,4 +23,5 @@ Noviana Siadari <br>
 <li>mengubah kode proses_update_biodata.php</li>
 <li>mengubah kode proses_delete_biodata.php</li>
 <li>perbaiki</li>
+<li>mengubah kode variabel</li>
 </ol>
