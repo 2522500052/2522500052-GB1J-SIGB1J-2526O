@@ -9,5 +9,7 @@ hari ini saya uas 29 januari 2026
 <li>mengextracrt bahan uas ke dalam pertemuan 16</li>
 <li>membuat data tabel biodata mahasiswa sederhana</li>
 <li>membuat file baru dipertemuan 16 edit.pengunjung.php</li>
+<li>membuat file baru proses.delete.pengunjung.php</li>
+<li>mengcopy isi file proses delete.php ke proses delete pengunjung.php</li>
 
 </ol>
