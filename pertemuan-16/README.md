@@ -6,5 +6,8 @@ KEL  : SI-GB1J <br>
 hari ini saya uas 29 januari 2026
 <ol>
 <li>mengunduh bahan uas di elearning</li>
+<li>mengextracrt bahan uas ke dalam pertemuan 16</li>
+<li>membuat data tabel biodata mahasiswa sederhana</li>
+<li>membuat file baru dipertemuan 16 edit.pengunjung.php</li>
 
 </ol>
