@@ -13,4 +13,5 @@ hari ini saya uas 29 januari 2026
 <li>mengcopy isi file proses delete.php ke proses delete pengunjung.php</li>
 <li>membuat file baru proses_update_pengunjung.php</li>
 <li>membuat file baru read_pengunjung.php</li>
+<li>mengcopy file read.php ke file read_pengunjung.php</li>
 </ol>
