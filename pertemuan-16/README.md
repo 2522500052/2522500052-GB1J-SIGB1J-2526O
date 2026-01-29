@@ -11,5 +11,6 @@ hari ini saya uas 29 januari 2026
 <li>membuat file baru dipertemuan 16 edit.pengunjung.php</li>
 <li>membuat file baru proses.delete.pengunjung.php</li>
 <li>mengcopy isi file proses delete.php ke proses delete pengunjung.php</li>
-
+<li>membuat file baru proses_update_pengunjung.php</li>
+<li>membuat file baru read_pengunjung.php</li>
 </ol>
