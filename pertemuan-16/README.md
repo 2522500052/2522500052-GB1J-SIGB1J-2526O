@@ -16,4 +16,5 @@ hari ini saya uas 29 januari 2026
 <li>mengcopy file read.php ke file read_pengunjung.php</li>
 <li>membuat file baru read_pengunjung_inc.php</li>
 <li>membuat file baru proses_pengunjung.php</li>
+<li>perbaikan file proses_pengunjung.php</li>
 </ol>
