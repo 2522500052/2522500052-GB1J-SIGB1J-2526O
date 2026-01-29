@@ -84,7 +84,7 @@
     $pekerjaan = $old_biodata['txtKerja']?? $txtKerja;
     $ortu = $old_biodata['txtNmOrtu']?? $txtNmOrtu;
     $kakak = $old_biodata['txtNmKakak']?? $txtNmKakak;
-    $adik = $old_biodata['txtNmAdik']?? $txtNmAdik;
+    $adik = $old_biodata['txtNmAdik']?? $txtNmAdik; 
   }
 ?>
 
